@@ -1,11 +1,11 @@
-USING: accessors io kernel math prettyprint regexp sequences splitting math.parser math.order ;
+USING: accessors io io.encodings.utf8 io.files kernel math prettyprint regexp sequences splitting math.parser math.order ;
 IN: solution
 
 TUPLE: game id rounds ;
 TUPLE: roll color amount ;
 
 : parse ( -- games ) 
-    read-contents split-lines 
+    "input" utf8 file-lines
     [ 
         ": " split1
         "; " split-subseq
@@ -74,4 +74,5 @@ TUPLE: triple
     .
 ;
 
+! select either part1 or part2
 MAIN: part2

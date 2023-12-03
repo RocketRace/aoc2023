@@ -2,5 +2,5 @@
 
 Using a different language every day.
 
-- Day 1: Uiua (0.3.1)
-- Day 2: Factor (0.99)
+- Day 1: Uiua (0.3.1) `uiua solution.ua`
+- Day 2: Factor (0.99) `factor solution.factor`
