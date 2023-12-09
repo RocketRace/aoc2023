@@ -13,3 +13,4 @@ and should be executed from that folder.
 - Day 6: Wolfram Language (1.9.0) `cat input | wolframscript -file solution.wl`
 - Day 7: Zsh (5.9) `cat input | ./solution.zsh`
 - Day 8: Julia (1.9.4) `julia solution.jl`
+- Day 9: Crystal  (1.10.1) `crystal solution.cr`
