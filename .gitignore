@@ -1,7 +1,8 @@
 .DS_Store
-.calva/
+**/input
+.calva
 .clj-kondo/
 .lsp/
-**/input
 .fake
 .config
+.vscode

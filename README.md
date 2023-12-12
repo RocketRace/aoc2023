@@ -15,3 +15,4 @@ and should be executed from that folder.
 - Day 8: Julia (1.9.4) `julia solution.jl`
 - Day 9: Crystal (1.10.1) `crystal solution.cr`
 - Day 10: F# (MS FSI 12.8.0.0) `dotnet fsi solution.fsx`
+- Day 11:
