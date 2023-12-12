@@ -16,3 +16,4 @@ and should be executed from that folder.
 - Day 9: Crystal (1.10.1) `crystal solution.cr`
 - Day 10: F# (MS FSI 12.8.0.0) `dotnet fsi solution.fsx`
 - Day 11: Haskell (GHC 9.8.1) `ghc solution.hs && ./solution`
+- Day 12: Lua (5.4.6) `lua solution.lua`
