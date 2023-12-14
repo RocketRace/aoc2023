@@ -17,3 +17,16 @@ and should be executed from that folder.
 - Day 10: F# (MS FSI 12.8.0.0) `dotnet fsi solution.fsx`
 - Day 11: Haskell (GHC 9.8.1) `ghc solution.hs && ./solution`
 - Day 12: Lua (5.4.6) `lua solution.lua`
+- Day 13: Koka (2.4.2) `koka -e solution.kk`
+- Day 14:
+- Day 15:
+- Day 16:
+- Day 17:
+- Day 18:
+- Day 19:
+- Day 20:
+- Day 21:
+- Day 22:
+- Day 23:
+- Day 24:
+- Day 25:
