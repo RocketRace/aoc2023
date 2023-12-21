@@ -21,7 +21,7 @@ and should be executed from that folder.
 - Day 14: Kotlin (1.9.21-release-633) `kotlin solution.kts`
 - Day 15:
 - Day 16:
-- Day 17:
+- Day 17: Rust (1.74.0) `cargo run`
 - Day 18:
 - Day 19:
 - Day 20:
