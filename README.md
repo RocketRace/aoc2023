@@ -25,7 +25,7 @@ and should be executed from that folder.
 - Day 18:
 - Day 19:
 - Day 20:
-- Day 21:
+- Day 21: Typescript (5.3.3, Node v21.2.0) `tsc && node solution.js`
 - Day 22:
 - Day 23:
 - Day 24:
