@@ -18,7 +18,7 @@ and should be executed from that folder.
 - Day 11: Haskell (GHC 9.8.1) `ghc solution.hs && ./solution`
 - Day 12: Lua (5.4.6) `lua solution.lua`
 - Day 13: Koka (2.4.2) `koka -e solution.kk`
-- Day 14:
+- Day 14: Kotlin (1.9.21-release-633) `kotlin solution.kts`
 - Day 15:
 - Day 16:
 - Day 17:
