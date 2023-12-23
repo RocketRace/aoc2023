@@ -19,7 +19,7 @@ and should be executed from that folder.
 - Day 12: Lua (5.4.6) `lua solution.lua`
 - Day 13: Koka (2.4.2) `koka -e solution.kk`
 - Day 14: Kotlin (1.9.21-release-633) `kotlin solution.kts`
-- Day 15:
+- Day 15: Idris 2 (0.6.0) `cat input | idris2 -x main solution.idris`
 - Day 16:
 - Day 17: Rust (1.74.0) `cargo run`
 - Day 18:
