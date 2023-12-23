@@ -23,7 +23,7 @@ and should be executed from that folder.
 - Day 16:
 - Day 17: Rust (1.74.0) `cargo run`
 - Day 18:
-- Day 19:
+- Day 19: Raku (v6.d @ Rakudo v2023.11) `raku solution.raku`
 - Day 20:
 - Day 21: Typescript (5.3.3, Node v21.2.0) `tsc && node solution.js`
 - Day 22:
