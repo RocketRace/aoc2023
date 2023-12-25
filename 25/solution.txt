@@ -1,0 +1,14 @@
+* install graphviz
+* download your input file
+* regex-replace `: ` with ` -- {`, and `\n` with `}\n`
+* pass the file to `dot -Tpng -Ksfdp` (sfdp because the number of nodes is fairly big)
+* observe that cutting **qnv/mnh**, **mfs/ffv** and **ljh/tbg** disconnects the graph
+* remove those from the file, verifying that the graph is infact disconnected
+* pass that resulting file to `ccomps`
+* for each subgraph:
+    * take only the edges
+    * regex-replace `\s*(\w+) -- (\w+);` with `$1(newline)$2`
+    * use multicursor to copy all the nodes from the edges
+    * paste them to a separate file
+    * run the `Delete Duplicate Lines` command in vscode
+* multiply the line counts
