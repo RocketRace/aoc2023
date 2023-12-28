@@ -26,7 +26,7 @@ and should be executed from that folder.
 - Day 19: Raku (v6.d @ Rakudo v2023.11) `raku solution.raku`
 - Day 20:
 - Day 21: Typescript (5.3.3, Node v21.2.0) `tsc && node solution.js`
-- Day 22:
-- Day 23:
-- Day 24:
+- Day 22: Elixir
+- Day 23: Swift
+- Day 24: Python 3 (cpython 3.11.6) `python3 solution.py`
 - Day 25: By hand (v2023-12-25) `read and follow solution.txt`
