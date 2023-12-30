@@ -1,0 +1,24 @@
+#!/usr/local/bin/dyalogscript
+
+⎕IO←0
+⎕PP←20
+lines ← (⎕UCS 10)(≠⊆⊢) ⊃⎕NGET 'input'
+parts ← {d n x ←' '∘(≠⊆⊢)⍵ ⋄ (⊃d) (⍎n) (¯1↓1↓x)}¨lines
+diff ← {
+    ⍺≡'R': ⍵ 0
+    ⍺≡'L': (-⍵)0
+    ⍺≡'D': 0 ⍵
+    ⍺≡'U': 0(-⍵)
+}
+area ← {
+    points ← (⊂0 0), +\ ⍵
+    ⍝ shoelace formula centered around the middle of squares
+    faces ← 2÷⍨ +/ 2{x1 y1 x2 y2←⍺,⍵ ⋄ (y1+y2)×(x1-x2)}/points
+    ⍝ area around the perimeter of the shape
+    edges ← 2÷⍨ +/ +/¨| ⍵
+    ⍝ leftover 4 corners with each 1÷4 area
+    vertices ← 1
+    faces + edges + vertices
+}
+⎕ ← area (⊃diff/)¨ ¯1∘↓¨ parts
+⎕ ← area {(('RDLU'∘(⊃⍨) 5∘⊃) diff (16∘⊥¯1∘↓)) ((⎕D,'abcdef')⍳⊢) 1↓2⊃⍵}¨ parts
