@@ -20,7 +20,7 @@ and should be executed from that folder.
 - Day 13: Koka (2.4.2) `koka -e solution.kk`
 - Day 14: Kotlin (1.9.21-release-633) `kotlin solution.kts`
 - Day 15: Idris 2 (0.6.0) `cat input | idris2 -x main solution.idris`
-- Day 16:
+- Day 16: Typst (0.10.0) `typst compile solution.typ` _note: part 2 must be computed one section at a time due to memory leaks_
 - Day 17: Rust (1.74.0) `cargo run`
 - Day 18: APL (Dyalog 18.2) `dyalogscript solution.apls`
 - Day 19: Raku (v6.d @ Rakudo v2023.11) `raku solution.raku`
