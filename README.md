@@ -9,7 +9,7 @@ and should be executed from that folder.
 - Day 2: [Factor](https://factorcode.org/) (0.99) `factor solution.factor`
 - Day 3: [Zig](https://ziglang.org/) (0.11.0) `zig run solution.zig`
 - Day 4: [BQN](https://mlochbaum.github.io/BQN/index.html) (CBQN 0.4.0) `bqn solution.bqn`
-- Day 5: [Clojure](https://clojure.org/) (1.11.1.1429) \[spawn a REPL (e.g. `clojure`) and run the contents of `five/src/five/core.clj`]
+- Day 5: [Clojure](https://clojure.org/) (1.11.1.1429) \[spawn a REPL (e.g. `clojure`) and run the contents of `five/src/five/core.clj`] (this should have been a clojurescript file to be fair)
 - Day 6: [Wolfram Language](https://www.wolfram.com/language/) (1.9.0) `cat input | wolframscript -file solution.wl`
 - Day 7: [Zsh](https://zsh.sourceforge.io/) (5.9) `cat input | ./solution.zsh`
 - Day 8: [Julia](https://julialang.org/) (1.9.4) `julia solution.jl`
